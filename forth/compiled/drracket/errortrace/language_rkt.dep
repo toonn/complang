@@ -1,0 +1,1 @@
+("5.3.6" ("d3ae7f986da641371b0663af8061029dd2843b1e" . "f39875af3a871857dfd1cfe8e6d2c09ea569ee7c") (collects #"errortrace" #"errortrace-key.rkt") #"/home/r0258654/src/complang/forth/semantics.rkt" (collects #"racket" #"main.rkt") (collects #"racket" #"lang" #"reader.rkt"))

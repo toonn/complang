@@ -1,0 +1,10 @@
+#lang racket
+ 
+(provide (all-defined-out))
+ 
+(define-struct state (stack words) #:mutable)
+ 
+(define (new-state)
+  (make-state '() (make-hash)))
+
+; your implemenation of the semantics
