@@ -14,6 +14,7 @@
          =
          word
          ;call
+	 empty-stack
          (rename-out [my-module-begin #%module-begin]
                      [my-top-interaction #%top-interaction]
                      [my-datum #%datum]))
@@ -44,9 +45,12 @@
 (define-syntax-rule (my-module-begin body ...)
   (#%plain-module-begin
     (parameterize ([current-state (new-state)])
-       body ...)))
+       )))
  
 ; Implemenation of our actual language
+
+(define-syntax-rule (empty-stack)
+  (set-state-stack! (current-state) '()))
 
 (define-syntax-rule (dump)
   (dump-stack (current-state)))
