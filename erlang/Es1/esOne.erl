@@ -5,7 +5,13 @@
 start(Par) ->
 	io:format("Client: I am ~p, i was spawned by the server: ~p \n",[self(),Par]),
 
-	%fill this part!
+    spawn(esOne, func, [self()]),
+    Par ! {onPid, self()},
+    Par ! {onName, self()},
+    receive
+        {reply, N} ->
+            io:format("Client: Received reply: ~p \n",[N])
+    end,
 
 	ok.
 
