@@ -1,0 +1,46 @@
+[killer] I attack with power 10.
+[killer] I attack with power 8.
+[killer] I attack with power 6.
+[killer] I attack with power 7.
+[killer] I attack with power 7.
+[killer] I attack with power 7.
+[killer] I attack with power 7.
+[killer] I attack with power 7.
+[killer] I attack with power 7.
+[killer] I attack with power 7.
+[killer] I attack with power 7.
+[killer] I was hit with power 4000, I have -3979 hp left.
+[killer] Alas, i die.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I was hit with power 4000, I have -3978 hp left.
+[killer] Alas, i die.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I was hit with power 4000, I have -3979 hp left.
+[killer] Alas, i die.
+[killer] I attack with power 10.
+[killer] My attack was unsuccesful.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] My attack was unsuccesful.
+[killer] I attack with power 10.
+[killer] My attack was unsuccesful.
+[killer] I attack with power 10.
+[killer] I attack with power 10.
+[killer] I was hit with power 4000, I have -3979 hp left.
+[killer] Alas, i die.

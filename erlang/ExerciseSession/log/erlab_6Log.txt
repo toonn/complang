@@ -1,0 +1,8 @@
+[erlab_6] I was hit with power 20, I have 5 hp left.
+[erlab_6] I attack with power 7.
+[erlab_6] I was hit with power 20, I have -10 hp left.
+[erlab_6] Alas, i die.
+[erlab_6] I was hit with power 19, I have 5 hp left.
+[erlab_6] I attack with power 8.
+[erlab_6] I was hit with power 16, I have -7 hp left.
+[erlab_6] Alas, i die.

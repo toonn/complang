@@ -1,0 +1,14 @@
+[lord] I was hit with power 19, I have 2 hp left.
+[lord] I attack with power 9.
+[lord] I was hit with power 19, I have -16 hp left.
+[lord] Alas, i die.
+[lord] I attack with power 8.
+[lord] I was hit with power 12, I have 10 hp left.
+[lord] I attack with power 8.
+[lord] I was hit with power 19, I have -7 hp left.
+[lord] Alas, i die.
+[lord] I was hit with power 20, I have 5 hp left.
+[lord] I attack with power 10.
+[lord] I attack with power 10.
+[lord] I was hit with power 18, I have -8 hp left.
+[lord] Alas, i die.

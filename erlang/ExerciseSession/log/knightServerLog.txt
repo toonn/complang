@@ -1,0 +1,481 @@
+[Srv]	[{1415,113327,564629}]: 	 I, knightServer, start.
+[Srv]	I register <0.33.0> with name lord at time {1415,113353,101767}.
+[Srv]	 I send 9 and 1 to <0.33.0> at time {1415,113353,128494}.
+[Srv]	 I attack lord with 19 strength.
+[Srv]	 	 I was attacked by lord with 9 at {1415,113353,378474}. 
+[Srv]	 I attack lord with 19 strength.
+[Srv]	 I killed <0.33.0> with name lord.
+[Srv]	I die.[Srv]	[{1415,114091,403296}]: 	 I, knightServer, start.
+[Srv]	I register a knight <0.57.0> with name erlab_15, whose master is lord at time {1415,
+                                                                                       114099,
+                                                                                       803279}.
+[Srv]	 I send 8 and 4 to <0.57.0> at time {1415,114099,849200}.
+[Srv]	I register a knight <0.58.0> with name erlab_14, whose master is lord at time {1415,
+                                                                                       114099,
+                                                                                       969881}.
+[Srv]	 I send 9 and 2 to <0.58.0> at time {1415,114100,11999}.
+[Srv]	I register a knight <0.59.0> with name erlab_13, whose master is lord at time {1415,
+                                                                                       114100,
+                                                                                       47954}.
+[Srv]	 I send 8 and 2 to <0.59.0> at time {1415,114100,78482}.
+[Srv]	I register a knight <0.60.0> with name erlab_12, whose master is lord at time {1415,
+                                                                                       114100,
+                                                                                       114682}.
+[Srv]	 I send 9 and 2 to <0.60.0> at time {1415,114100,168574}.
+[Srv]	I register a knight <0.61.0> with name erlab_11, whose master is lord at time {1415,
+                                                                                       114100,
+                                                                                       208017}.
+[Srv]	 I send 8 and 1 to <0.61.0> at time {1415,114100,243993}.
+[Srv]	 I attack erlab_15 with 20 strength.
+[Srv]	 I attack erlab_14 with 15 strength.
+[Srv]	 I attack erlab_13 with 12 strength.
+[Srv]	 I attack erlab_12 with 15 strength.
+[Srv]	 I attack erlab_11 with 18 strength.
+[Srv]	 I attack erlab_15 with 13 strength.
+[Srv]	 I attack erlab_14 with 11 strength.
+[Srv]	 I attack erlab_13 with 19 strength.
+[Srv]	 I attack erlab_12 with 19 strength.
+[Srv]	 I attack erlab_11 with 18 strength.
+[Srv]	 	 I was attacked by erlab_15 with 8 at {1415,114100,633208}. 
+[Srv]	 I attack erlab_15 with 15 strength.
+[Srv]	 I attack erlab_14 with 16 strength.
+[Srv]	 I attack erlab_13 with 18 strength.
+[Srv]	 I attack erlab_12 with 14 strength.
+[Srv]	 I attack erlab_11 with 14 strength.
+[Srv]	 	 I was attacked by erlab_14 with 9 at {1415,114100,814638}. 
+[Srv]	 	 I was attacked by erlab_13 with 8 at {1415,114100,832606}. 
+[Srv]	 	 I was attacked by erlab_15 with 8 at {1415,114100,867169}. 
+[Srv]	 	 I was attacked by erlab_12 with 9 at {1415,114100,903636}. 
+[Srv]	 I attack erlab_15 with 13 strength.
+[Srv]	 I attack erlab_14 with 20 strength.
+[Srv]	 I attack erlab_13 with 19 strength.
+[Srv]	 I attack erlab_12 with 17 strength.
+[Srv]	 I attack erlab_11 with 16 strength.
+[Srv]	 	 I was attacked by erlab_14 with 9 at {1415,114101,159148}. 
+[Srv]	 	 I was attacked by erlab_11 with 8 at {1415,114101,216637}. 
+[Srv]	 	 I was attacked by erlab_13 with 8 at {1415,114101,258778}. 
+[Srv]	 I killed <0.57.0> with name erlab_15.
+[Srv]	I register a knight <0.101.0> with name erlab_10, whose master is lord at time {1415,
+                                                                                        114101,
+                                                                                        345979}.
+[Srv]	 I send 8 and 5 to <0.101.0> at time {1415,114101,385076}.
+[Srv]	 I killed <0.58.0> with name erlab_14.
+[Srv]	I register a knight <0.105.0> with name erlab_9, whose master is lord at time {1415,
+                                                                                       114101,
+                                                                                       433566}.
+[Srv]	 I send 10 and 4 to <0.105.0> at time {1415,114101,457765}.
+[Srv]	 I killed <0.59.0> with name erlab_13.
+[Srv]	I register a knight <0.108.0> with name erlab_8, whose master is lord at time {1415,
+                                                                                       114101,
+                                                                                       506099}.
+[Srv]	 I send 10 and 3 to <0.108.0> at time {1415,114101,523739}.
+[Srv]	 I killed <0.60.0> with name erlab_12.
+[Srv]	I register a knight <0.113.0> with name erlab_7, whose master is lord at time {1415,
+                                                                                       114101,
+                                                                                       584835}.
+[Srv]	 I send 6 and 2 to <0.113.0> at time {1415,114101,621165}.
+[Srv]	 I attack erlab_11 with 18 strength.
+[Srv]	 I attack erlab_10 with 17 strength.
+[Srv]	 I attack erlab_9 with 14 strength.
+[Srv]	 I attack erlab_8 with 15 strength.
+[Srv]	 I attack erlab_7 with 12 strength.
+[Srv]	 I killed <0.61.0> with name erlab_11.
+[Srv]	I register a knight <0.115.0> with name erlab_6, whose master is lord at time {1415,
+                                                                                       114101,
+                                                                                       953164}.
+[Srv]	 I send 7 and 5 to <0.115.0> at time {1415,114101,995416}.
+[Srv]	 I attack erlab_10 with 17 strength.
+[Srv]	 I attack erlab_9 with 18 strength.
+[Srv]	 I attack erlab_8 with 12 strength.
+[Srv]	 I attack erlab_7 with 16 strength.
+[Srv]	 I attack erlab_6 with 20 strength.
+[Srv]	 I attack erlab_10 with 19 strength.
+[Srv]	 I attack erlab_9 with 12 strength.
+[Srv]	 I attack erlab_8 with 15 strength.
+[Srv]	 I attack erlab_7 with 16 strength.
+[Srv]	 I attack erlab_6 with 20 strength.
+[Srv]	 I attack erlab_10 with 19 strength.
+[Srv]	 I attack erlab_9 with 15 strength.
+[Srv]	 I attack erlab_8 with 11 strength.
+[Srv]	 I attack erlab_7 with 18 strength.
+[Srv]	 I attack erlab_6 with 13 strength.
+[Srv]	 I attack erlab_10 with 20 strength.
+[Srv]	 I attack erlab_9 with 11 strength.
+[Srv]	 I attack erlab_8 with 20 strength.
+[Srv]	 I attack erlab_7 with 20 strength.
+[Srv]	 I attack erlab_6 with 15 strength.
+[Srv]	 	 I was attacked by erlab_10 with 8 at {1415,114102,693003}. 
+[Srv]	 I attack erlab_10 with 20 strength.
+[Srv]	 I attack erlab_9 with 13 strength.
+[Srv]	 I attack erlab_8 with 19 strength.
+[Srv]	 I attack erlab_7 with 17 strength.
+[Srv]	 I attack erlab_6 with 12 strength.
+[Srv]	 	 I was attacked by erlab_9 with 10 at {1415,114102,869229}. 
+[Srv]	 	 I was attacked by erlab_8 with 10 at {1415,114102,903432}. 
+[Srv]	 	 I was attacked by erlab_10 with 8 at {1415,114102,945639}. 
+[Srv]	 I attack erlab_10 with 20 strength.
+[Srv]	 I attack erlab_9 with 15 strength.
+[Srv]	 I attack erlab_8 with 16 strength.
+[Srv]	 I attack erlab_7 with 12 strength.
+[Srv]	 I attack erlab_6 with 15 strength.
+[Srv]	 	 I was attacked by erlab_9 with 10 at {1415,114103,190997}. 
+[Srv]	 	 I was attacked by erlab_7 with 6 at {1415,114103,235172}. 
+[Srv]	 	 I was attacked by erlab_8 with 10 at {1415,114103,302509}. 
+[Srv]	 	 I was attacked by erlab_10 with 8 at {1415,114103,345785}. 
+[Srv]	 I attack erlab_10 with 13 strength.
+[Srv]	 I attack erlab_9 with 14 strength.
+[Srv]	 I attack erlab_8 with 16 strength.
+[Srv]	 I attack erlab_7 with 14 strength.
+[Srv]	 I attack erlab_6 with 20 strength.
+[Srv]	 	 I was attacked by erlab_7 with 6 at {1415,114103,541287}. 
+[Srv]	 	 I was attacked by erlab_9 with 10 at {1415,114103,581040}. 
+[Srv]	 I killed <0.101.0> with name erlab_10.
+[Srv]	I register a knight <0.177.0> with name erlab_5, whose master is lord at time {1415,
+                                                                                       114103,
+                                                                                       668215}.
+[Srv]	 I send 10 and 3 to <0.177.0> at time {1415,114103,698554}.
+[Srv]	 I killed <0.105.0> with name erlab_9.
+[Srv]	I register a knight <0.184.0> with name erlab_4, whose master is lord at time {1415,
+                                                                                       114103,
+                                                                                       758968}.
+[Srv]	 I send 10 and 2 to <0.184.0> at time {1415,114103,792909}.
+[Srv]	 	 I was attacked by erlab_8 with 10 at {1415,114103,831614}. 
+[Srv]	 I killed <0.108.0> with name erlab_8.
+[Srv]	I register a knight <0.190.0> with name erlab_3, whose master is lord at time {1415,
+                                                                                       114103,
+                                                                                       935420}.
+[Srv]	 I send 7 and 1 to <0.190.0> at time {1415,114103,980239}.
+[Srv]	 I killed <0.113.0> with name erlab_7.
+[Srv]	I register a knight <0.191.0> with name erlab_2, whose master is lord at time {1415,
+                                                                                       114104,
+                                                                                       132859}.
+[Srv]	 I send 6 and 3 to <0.191.0> at time {1415,114104,172582}.
+[Srv]	 I attack erlab_6 with 12 strength.
+[Srv]	 I attack erlab_5 with 19 strength.
+[Srv]	 I attack erlab_4 with 19 strength.
+[Srv]	 I attack erlab_3 with 20 strength.
+[Srv]	 I attack erlab_2 with 19 strength.
+[Srv]	 	 I was attacked by erlab_6 with 7 at {1415,114104,455499}. 
+[Srv]	 I killed <0.115.0> with name erlab_6.
+[Srv]	I register <0.33.0> with name lord at time {1415,114104,536387}.
+[Srv]	 I send 8 and 2 to <0.33.0> at time {1415,114104,567393}.
+[Srv]	I register a knight <0.201.0> with name erlab_1, whose master is lord at time {1415,
+                                                                                       114104,
+                                                                                       596022}.
+[Srv]	 I send 8 and 1 to <0.201.0> at time {1415,114104,631759}.
+[Srv]	 I attack erlab_5 with 20 strength.
+[Srv]	 I attack erlab_4 with 13 strength.
+[Srv]	 I attack erlab_3 with 15 strength.
+[Srv]	 I attack erlab_2 with 12 strength.
+[Srv]	 I attack erlab_1 with 20 strength.
+[Srv]	 I attack lord with 12 strength.
+[Srv]	 I attack erlab_5 with 17 strength.
+[Srv]	 I attack erlab_4 with 12 strength.
+[Srv]	 I attack erlab_3 with 18 strength.
+[Srv]	 I attack erlab_2 with 19 strength.
+[Srv]	 I attack erlab_1 with 20 strength.
+[Srv]	 I attack lord with 19 strength.
+[Srv]	 I attack erlab_5 with 15 strength.
+[Srv]	 I attack erlab_4 with 18 strength.
+[Srv]	 I attack erlab_3 with 16 strength.
+[Srv]	 I attack erlab_2 with 20 strength.
+[Srv]	 I attack erlab_1 with 15 strength.
+[Srv]	 I attack lord with 20 strength.
+[Srv]	 I attack erlab_5 with 16 strength.
+[Srv]	 I attack erlab_4 with 19 strength.
+[Srv]	 I attack erlab_3 with 14 strength.
+[Srv]	 I attack erlab_2 with 12 strength.
+[Srv]	 I attack erlab_1 with 20 strength.
+[Srv]	 I attack lord with 18 strength.
+[Srv]	 I attack erlab_5 with 15 strength.
+[Srv]	 I attack erlab_4 with 11 strength.
+[Srv]	 I attack erlab_3 with 19 strength.
+[Srv]	 I attack erlab_2 with 20 strength.
+[Srv]	 I attack erlab_1 with 12 strength.
+[Srv]	 I attack lord with 20 strength.
+[Srv]	 I attack erlab_5 with 18 strength.
+[Srv]	 I attack erlab_4 with 16 strength.
+[Srv]	 I attack erlab_3 with 14 strength.
+[Srv]	 I attack erlab_2 with 18 strength.
+[Srv]	 I attack erlab_1 with 11 strength.
+[Srv]	 I attack lord with 12 strength.
+[Srv]	 I attack erlab_5 with 18 strength.
+[Srv]	 I attack erlab_4 with 12 strength.
+[Srv]	 I attack erlab_3 with 17 strength.
+[Srv]	 I attack erlab_2 with 19 strength.
+[Srv]	 I attack erlab_1 with 20 strength.
+[Srv]	 I attack lord with 12 strength.
+[Srv]	 I attack erlab_5 with 18 strength.
+[Srv]	 I attack erlab_4 with 16 strength.
+[Srv]	 I attack erlab_3 with 13 strength.
+[Srv]	 I attack erlab_2 with 12 strength.
+[Srv]	 I attack erlab_1 with 16 strength.
+[Srv]	 I attack lord with 19 strength.
+[Srv]	 	 I was attacked by erlab_5 with 10 at {1415,114106,238317}. 
+[Srv]	 I attack erlab_5 with 12 strength.
+[Srv]	 I attack erlab_4 with 18 strength.
+[Srv]	 I attack erlab_3 with 14 strength.
+[Srv]	 I attack erlab_2 with 15 strength.
+[Srv]	 I attack erlab_1 with 14 strength.
+[Srv]	 I attack lord with 19 strength.
+[Srv]	 	 I was attacked by erlab_4 with 10 at {1415,114106,451593}. 
+[Srv]	 	 I was attacked by erlab_5 with 10 at {1415,114106,533286}. 
+[Srv]	 I attack erlab_5 with 17 strength.
+[Srv]	 I attack erlab_4 with 15 strength.
+[Srv]	 I attack erlab_3 with 14 strength.
+[Srv]	 I attack erlab_2 with 18 strength.
+[Srv]	 I attack erlab_1 with 17 strength.
+[Srv]	 I attack lord with 18 strength.
+[Srv]	 	 I was attacked by erlab_4 with 10 at {1415,114106,726788}. 
+[Srv]	 	 I was attacked by erlab_3 with 7 at {1415,114106,746841}. 
+[Srv]	 	 I was attacked by erlab_5 with 10 at {1415,114106,768890}. 
+[Srv]	 I attack erlab_5 with 19 strength.
+[Srv]	 I attack erlab_4 with 15 strength.
+[Srv]	 I attack erlab_3 with 20 strength.
+[Srv]	 I attack erlab_2 with 16 strength.
+[Srv]	 I attack erlab_1 with 11 strength.
+[Srv]	 I attack lord with 14 strength.
+[Srv]	 	 I was attacked by erlab_4 with 10 at {1415,114106,957733}. 
+[Srv]	 	 I was attacked by erlab_2 with 6 at {1415,114106,975802}. 
+[Srv]	 	 I was attacked by erlab_3 with 7 at {1415,114106,993851}. 
+[Srv]	 	 I was attacked by erlab_5 with 10 at {1415,114107,11842}. 
+[Srv]	 	 I was attacked by erlab_2 with 6 at {1415,114107,36027}. 
+[Srv]	 I attack erlab_5 with 12 strength.
+[Srv]	 I attack erlab_4 with 16 strength.
+[Srv]	 I attack erlab_3 with 11 strength.
+[Srv]	 I attack erlab_2 with 12 strength.
+[Srv]	 I attack erlab_1 with 13 strength.
+[Srv]	 I attack lord with 18 strength.
+[Srv]	 	 I was attacked by erlab_4 with 10 at {1415,114107,259821}. 
+[Srv]	 	 I was attacked by erlab_3 with 7 at {1415,114107,385655}. 
+[Srv]	 I killed <0.177.0> with name erlab_5.
+[Srv]	 I killed <0.184.0> with name erlab_4.
+[Srv]	 I killed <0.190.0> with name erlab_3.
+[Srv]	 	 I was attacked by lord with 8 at {1415,114107,597740}. 
+[Srv]	 I killed <0.191.0> with name erlab_2.
+[Srv]	 I attack erlab_1 with 18 strength.
+[Srv]	 I attack lord with 12 strength.
+[Srv]	 	 I was attacked by erlab_1 with 8 at {1415,114107,831825}. 
+[Srv]	 	 I was attacked by lord with 8 at {1415,114107,851902}. 
+[Srv]	 I attack erlab_1 with 12 strength.
+[Srv]	 I attack lord with 14 strength.
+[Srv]	 	 I was attacked by erlab_1 with 8 at {1415,114107,906285}. 
+[Srv]	 I killed <0.33.0> with name lord.
+[Srv]	 I killed <0.201.0> with name erlab_1.
+[Srv]	 I attack lord with 16 strength.
+[Srv]	 I attack lord with 13 strength.
+[Srv]	 I attack lord with 12 strength.
+[Srv]	 I attack lord with 18 strength.
+[Srv]	 I attack lord with 20 strength.
+[Srv]	 I attack lord with 15 strength.
+[Srv]	 I attack lord with 19 strength.
+[Srv]	 I attack lord with 17 strength.
+[Srv]	 I attack lord with 20 strength.
+[Srv]	 I attack lord with 14 strength.
+[Srv]	 I attack lord with 15 strength.
+[Srv]	 I attack lord with 14 strength.
+[Srv]	 I attack lord with 14 strength.
+[Srv]	 I attack lord with 12 strength.
+[Srv]	I die.[Srv]	[{1415,122667,32394}]: 	 I, knightServer, start.
+[Srv]	I register a knight <0.57.0> with name erlab_15, whose master is lord at time {1415,
+                                                                                       122675,
+                                                                                       632126}.
+[Srv]	 I send 7 and 3 to <0.57.0> at time {1415,122675,680294}.
+[Srv]	I register a knight <0.58.0> with name erlab_14, whose master is lord at time {1415,
+                                                                                       122675,
+                                                                                       710465}.
+[Srv]	 I send 6 and 3 to <0.58.0> at time {1415,122675,740536}.
+[Srv]	I register a knight <0.59.0> with name erlab_13, whose master is lord at time {1415,
+                                                                                       122675,
+                                                                                       770602}.
+[Srv]	 I send 6 and 4 to <0.59.0> at time {1415,122675,812788}.
+[Srv]	I register a knight <0.60.0> with name erlab_12, whose master is lord at time {1415,
+                                                                                       122675,
+                                                                                       842878}.
+[Srv]	 I send 8 and 1 to <0.60.0> at time {1415,122675,872954}.
+[Srv]	I register a knight <0.61.0> with name erlab_11, whose master is lord at time {1415,
+                                                                                       122675,
+                                                                                       902995}.
+[Srv]	 I send 10 and 5 to <0.61.0> at time {1415,122675,933156}.
+[Srv]	 I attack erlab_15 with 19 strength.
+[Srv]	 I attack erlab_14 with 13 strength.
+[Srv]	 I attack erlab_13 with 19 strength.
+[Srv]	 I attack erlab_12 with 12 strength.
+[Srv]	 I attack erlab_11 with 18 strength.
+[Srv]	 I attack erlab_15 with 14 strength.
+[Srv]	 I attack erlab_14 with 18 strength.
+[Srv]	 I attack erlab_13 with 20 strength.
+[Srv]	 I attack erlab_12 with 18 strength.
+[Srv]	 I attack erlab_11 with 16 strength.
+[Srv]	 	 I was attacked by erlab_15 with 7 at {1415,122676,319949}. 
+[Srv]	 	 I was attacked by erlab_14 with 6 at {1415,122676,354479}. 
+[Srv]	 I attack erlab_15 with 15 strength.
+[Srv]	 I attack erlab_14 with 19 strength.
+[Srv]	 I attack erlab_13 with 15 strength.
+[Srv]	 I attack erlab_12 with 17 strength.
+[Srv]	 I attack erlab_11 with 18 strength.
+[Srv]	 	 I was attacked by erlab_13 with 6 at {1415,122676,469536}. 
+[Srv]	 	 I was attacked by erlab_15 with 7 at {1415,122676,487647}. 
+[Srv]	 	 I was attacked by erlab_12 with 8 at {1415,122676,505564}. 
+[Srv]	 	 I was attacked by erlab_11 with 10 at {1415,122676,523736}. 
+[Srv]	 I killed <0.57.0> with name erlab_15.
+[Srv]	I register a knight <0.101.0> with name erlab_10, whose master is lord at time {1415,
+                                                                                        122676,
+                                                                                        559517}.
+[Srv]	 I send 6 and 4 to <0.101.0> at time {1415,122676,577881}.
+[Srv]	 	 I was attacked by erlab_14 with 6 at {1415,122676,595798}. 
+[Srv]	 I attack erlab_14 with 17 strength.
+[Srv]	 I attack erlab_13 with 11 strength.
+[Srv]	 I attack erlab_12 with 19 strength.
+[Srv]	 I attack erlab_11 with 19 strength.
+[Srv]	 I attack erlab_10 with 17 strength.
+[Srv]	 	 I was attacked by erlab_13 with 6 at {1415,122676,727869}. 
+[Srv]	 I killed <0.59.0> with name erlab_13.
+[Srv]	I register a knight <0.110.0> with name erlab_9, whose master is lord at time {1415,
+                                                                                       122676,
+                                                                                       764135}.
+[Srv]	 I send 10 and 2 to <0.110.0> at time {1415,122676,787589}.
+[Srv]	 I killed <0.60.0> with name erlab_12.
+[Srv]	I register a knight <0.111.0> with name erlab_8, whose master is lord at time {1415,
+                                                                                       122676,
+                                                                                       851136}.
+[Srv]	 I send 6 and 4 to <0.111.0> at time {1415,122676,881271}.
+[Srv]	 I killed <0.58.0> with name erlab_14.
+[Srv]	I register a knight <0.112.0> with name erlab_7, whose master is lord at time {1415,
+                                                                                       122676,
+                                                                                       941464}.
+[Srv]	 I send 6 and 2 to <0.112.0> at time {1415,122676,971545}.
+[Srv]	 I killed <0.61.0> with name erlab_11.
+[Srv]	I register a knight <0.116.0> with name erlab_6, whose master is lord at time {1415,
+                                                                                       122677,
+                                                                                       25640}.
+[Srv]	 I send 8 and 4 to <0.116.0> at time {1415,122677,55865}.
+[Srv]	 I attack erlab_10 with 12 strength.
+[Srv]	 I attack erlab_9 with 18 strength.
+[Srv]	 I attack erlab_8 with 20 strength.
+[Srv]	 I attack erlab_7 with 14 strength.
+[Srv]	 I attack erlab_6 with 19 strength.
+[Srv]	 I attack erlab_10 with 17 strength.
+[Srv]	 I attack erlab_9 with 12 strength.
+[Srv]	 I attack erlab_8 with 16 strength.
+[Srv]	 I attack erlab_7 with 14 strength.
+[Srv]	 I attack erlab_6 with 16 strength.
+[Srv]	 	 I was attacked by erlab_10 with 6 at {1415,122677,397371}. 
+[Srv]	 I attack erlab_10 with 15 strength.
+[Srv]	 I attack erlab_9 with 17 strength.
+[Srv]	 I attack erlab_8 with 20 strength.
+[Srv]	 I attack erlab_7 with 17 strength.
+[Srv]	 I attack erlab_6 with 15 strength.
+[Srv]	 	 I was attacked by erlab_10 with 6 at {1415,122677,598509}. 
+[Srv]	 	 I was attacked by erlab_9 with 10 at {1415,122677,626778}. 
+[Srv]	 I attack erlab_10 with 19 strength.
+[Srv]	 I attack erlab_9 with 12 strength.
+[Srv]	 I attack erlab_8 with 13 strength.
+[Srv]	 I attack erlab_7 with 13 strength.
+[Srv]	 I attack erlab_6 with 15 strength.
+[Srv]	 	 I was attacked by erlab_8 with 6 at {1415,122677,740778}. 
+[Srv]	 I killed <0.101.0> with name erlab_10.
+[Srv]	I register a knight <0.164.0> with name erlab_5, whose master is lord at time {1415,
+                                                                                       122677,
+                                                                                       776845}.
+[Srv]	 I send 10 and 2 to <0.164.0> at time {1415,122677,794915}.
+[Srv]	 	 I was attacked by erlab_7 with 6 at {1415,122677,812896}. 
+[Srv]	 	 I was attacked by erlab_9 with 10 at {1415,122677,830693}. 
+[Srv]	 I attack erlab_9 with 19 strength.
+[Srv]	 I attack erlab_8 with 14 strength.
+[Srv]	 I attack erlab_7 with 19 strength.
+[Srv]	 I attack erlab_6 with 19 strength.
+[Srv]	 I attack erlab_5 with 17 strength.
+[Srv]	 	 I was attacked by erlab_6 with 8 at {1415,122677,957879}. 
+[Srv]	 I killed <0.110.0> with name erlab_9.
+[Srv]	I register a knight <0.181.0> with name erlab_4, whose master is lord at time {1415,
+                                                                                       122677,
+                                                                                       993355}.
+[Srv]	 I send 7 and 5 to <0.181.0> at time {1415,122678,11414}.
+[Srv]	 	 I was attacked by erlab_8 with 6 at {1415,122678,41703}. 
+[Srv]	 I killed <0.112.0> with name erlab_7.
+[Srv]	I register a knight <0.188.0> with name erlab_3, whose master is lord at time {1415,
+                                                                                       122678,
+                                                                                       77539}.
+[Srv]	 I send 10 and 5 to <0.188.0> at time {1415,122678,95571}.
+[Srv]	 I killed <0.111.0> with name erlab_8.
+[Srv]	I register a knight <0.190.0> with name erlab_2, whose master is lord at time {1415,
+                                                                                       122678,
+                                                                                       131662}.
+[Srv]	 I send 8 and 5 to <0.190.0> at time {1415,122678,149695}.
+[Srv]	 I killed <0.116.0> with name erlab_6.
+[Srv]	I register <0.33.0> with name lord at time {1415,122678,185739}.
+[Srv]	 I send 10 and 5 to <0.33.0> at time {1415,122678,203807}.
+[Srv]	I register a knight <0.191.0> with name erlab_1, whose master is lord at time {1415,
+                                                                                       122678,
+                                                                                       221806}.
+[Srv]	 I send 6 and 3 to <0.191.0> at time {1415,122678,246115}.
+[Srv]	 I attack erlab_5 with 20 strength.
+[Srv]	 I attack erlab_4 with 15 strength.
+[Srv]	 I attack erlab_3 with 12 strength.
+[Srv]	 I attack erlab_2 with 12 strength.
+[Srv]	 I attack erlab_1 with 11 strength.
+[Srv]	 I attack lord with 20 strength.
+[Srv]	 I attack erlab_5 with 20 strength.
+[Srv]	 I attack erlab_4 with 19 strength.
+[Srv]	 I attack erlab_3 with 14 strength.
+[Srv]	 I attack erlab_2 with 12 strength.
+[Srv]	 I attack erlab_1 with 13 strength.
+[Srv]	 I attack lord with 18 strength.
+[Srv]	 I attack erlab_5 with 16 strength.
+[Srv]	 I attack erlab_4 with 13 strength.
+[Srv]	 I attack erlab_3 with 15 strength.
+[Srv]	 I attack erlab_2 with 15 strength.
+[Srv]	 I attack erlab_1 with 18 strength.
+[Srv]	 I attack lord with 20 strength.
+[Srv]	 	 I was attacked by erlab_5 with 10 at {1415,122678,941157}. 
+[Srv]	 I attack erlab_5 with 11 strength.
+[Srv]	 I attack erlab_4 with 12 strength.
+[Srv]	 I attack erlab_3 with 16 strength.
+[Srv]	 I attack erlab_2 with 13 strength.
+[Srv]	 I attack erlab_1 with 20 strength.
+[Srv]	 I attack lord with 15 strength.
+[Srv]	 	 I was attacked by erlab_5 with 10 at {1415,122679,136582}. 
+[Srv]	 	 I was attacked by erlab_4 with 7 at {1415,122679,166677}. 
+[Srv]	 I attack erlab_5 with 11 strength.
+[Srv]	 I attack erlab_4 with 11 strength.
+[Srv]	 I attack erlab_3 with 19 strength.
+[Srv]	 I attack erlab_2 with 20 strength.
+[Srv]	 I attack erlab_1 with 20 strength.
+[Srv]	 I attack lord with 13 strength.
+[Srv]	 I killed <0.164.0> with name erlab_5.
+[Srv]	 	 I was attacked by erlab_3 with 10 at {1415,122679,551545}. 
+[Srv]	 	 I was attacked by erlab_2 with 8 at {1415,122679,581434}. 
+[Srv]	 	 I was attacked by erlab_4 with 7 at {1415,122679,606331}. 
+[Srv]	 	 I was attacked by lord with 10 at {1415,122679,624342}. 
+[Srv]	 I attack erlab_4 with 16 strength.
+[Srv]	 I attack erlab_3 with 17 strength.
+[Srv]	 I attack erlab_2 with 15 strength.
+[Srv]	 I attack erlab_1 with 18 strength.
+[Srv]	 I attack lord with 18 strength.
+[Srv]	 	 I was attacked by erlab_1 with 6 at {1415,122679,738775}. 
+[Srv]	 I killed <0.181.0> with name erlab_4.
+[Srv]	 	 I was attacked by erlab_3 with 10 at {1415,122679,774824}. 
+[Srv]	 	 I was attacked by erlab_2 with 8 at {1415,122679,792897}. 
+[Srv]	 I attack erlab_3 with 13 strength.
+[Srv]	 I attack erlab_2 with 15 strength.
+[Srv]	 I attack erlab_1 with 11 strength.
+[Srv]	 I attack lord with 20 strength.
+[Srv]	 	 I was attacked by lord with 10 at {1415,122679,883109}. 
+[Srv]	 	 I was attacked by erlab_1 with 6 at {1415,122679,901124}. 
+[Srv]	 	 I was attacked by erlab_3 with 10 at {1415,122679,919196}. 
+[Srv]	 I killed <0.33.0> with name lord.
+[Srv]	 	 I was attacked by erlab_2 with 8 at {1415,122679,954964}. 
+[Srv]	 I killed <0.188.0> with name erlab_3.
+[Srv]	 I attack erlab_2 with 16 strength.
+[Srv]	 I attack erlab_1 with 15 strength.
+[Srv]	 I attack lord with 16 strength.
+[Srv]	 I killed <0.190.0> with name erlab_2.
+[Srv]	 	 I was attacked by erlab_1 with 6 at {1415,122680,63214}. 
+[Srv]	 I killed <0.191.0> with name erlab_1.
+[Srv]	 I attack lord with 14 strength.
+[Srv]	 I attack lord with 12 strength.
+[Srv]	 I attack lord with 18 strength.
+[Srv]	 I attack lord with 19 strength.
+[Srv]	 I attack lord with 19 strength.
+[Srv]	I die.
