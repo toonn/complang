@@ -77,7 +77,7 @@ collect( N , T) ->
 			manager ! {collectedData, T};
 		Num ->
 			receive
-				{tilevalue, Id, Value, _, _} ->
+				{tilevalue, Id, Value, _} ->
 					collect( Num+1, erlang:setelement(Id, T, Value))
 			end
 	end.
