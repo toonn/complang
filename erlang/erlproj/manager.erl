@@ -2,31 +2,81 @@
 
 -export([manage/0]).
 
+spawn_tiles(TileIds, TileValues) ->
+    lists:map(fun(Id) ->
+                spawn_link(tile, tilemain, [Id, element(Id, TileValues)])
+              end, TileIds).
+
+await_finish([]) -> ok;
+await_finish(Await) ->
+    receive
+        {moveFinish, Id} ->
+            await_finish(lists:delete(Id, Await))
+    end.
+await_finish() ->
+    await_finish(lists:seq(1,16)).
+
 manage() ->
-	manageloop().
+    process_flag(trap_exit, true),
+    InitialTileValues = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    spawn_tiles(lists:seq(1,16), InitialTileValues),
+	manageloop(InitialTileValues, true, true).
 
 % when receiving the message $senddata, spaw a collector and a broadcaster for the collection of the data
 %  from the tiles. Then, once the $Data is collected, inform the lifeguard and the gui
-manageloop() ->
+manageloop(TileTuple, Changed, CollectAble) ->
 	receive
+        {'EXIT', _, killed} ->
+            NCollectAble = CollectAble,
+            NChanged = Changed,
+            NTileTuple = TileTuple,
+            Registered = registered(),
+            spawn_tiles(
+                lists:filter(fun(El) ->
+                                 not lists:member(glob:regformat(El),
+                                                  Registered)
+                             end,
+                             lists:seq(1,16)), TileTuple);
+        {newvalue, Id, Value} ->
+            NCollectAble = CollectAble,
+            NChanged = true,
+            NTileTuple = setelement(Id, TileTuple, Value);
 		up ->
+            NCollectAble = false,
+            NChanged = Changed,
+            NTileTuple = TileTuple,
 			Tmp = [1,2,3,4],
 			lists:map(fun(X) -> glob:regformat(X) ! up end, Tmp);
 		dn ->
+            NCollectAble = false,
+            NChanged = Changed,
+            NTileTuple = TileTuple,
 			Tmp = [13,14,15,16],
 			lists:map(fun(X) -> glob:regformat(X) ! dn end, Tmp);
 		lx ->
+            NCollectAble = false,
+            NChanged = Changed,
+            NTileTuple = TileTuple,
 			Tmp = [1,5,9,13],
 			lists:map(fun(X) -> glob:regformat(X) ! lx end, Tmp);
 		rx ->
+            NCollectAble = false,
+            NChanged = Changed,
+            NTileTuple = TileTuple,
 			Tmp = [4,8,12,16],
 			lists:map(fun(X) -> glob:regformat(X) ! rx end, Tmp);
 		sendData ->
+            NChanged = Changed,
+            NTileTuple = TileTuple,
 			Basetuple = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 			% this is the instruction mentioned in the text %
 			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-			timer:sleep(700),
+            if
+                not CollectAble -> await_finish();
+                true -> ok
+            end,
+            NCollectAble = true,
 			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 			% this is the instruction mentioned in the text %
 			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -34,13 +84,25 @@ manageloop() ->
 			register( collector, PidCollector ),
 			spawn( fun() -> broadcaster( 16, {yourValue, collector} ) end);
 		{collectedData, TupleData} ->
-			ListData = randomiseatile(TupleData),
+            NCollectAble = CollectAble,
+            % This if makes sure the rules follow those in the actual game:
+            % if nothing moves, no new random tiles are added.
+            if
+                Changed ->
+                    NChanged = false,
+                    ListData = randomiseatile(TupleData),
+                    NTileTuple = list_to_tuple(ListData);
+                true ->
+                    NChanged = Changed,
+                    NTileTuple = TileTuple,
+                    ListData = tuple_to_list(TileTuple)
+            end,
 			gui ! {values, ListData}
 	end,
-	manageloop().
+	manageloop(NTileTuple, NChanged, NCollectAble).
 
 % takes a tuple of data in input and returns it in a list format
-% with two elements that were at 0 now randomised at 2
+% with an element that was 0 now randomized to 2 or 4
 randomiseatile( Tuple )->
 	{A1,A2,A3} = now(),
     random:seed(A1, A2, A3),
@@ -49,7 +111,7 @@ randomiseatile( Tuple )->
 			Tu = Tuple;
 		_ ->
 			C1 = getCand(0, Tuple),
-			V1 = 2,
+			V1 = 2*random:uniform(2),
 			debug:debug("MANAGER: radomised in ~p.~n",[C1]),
 			glob:regformat(C1) ! {setvalue, V1, false},
 			Tu = erlang:setelement(C1,Tuple,V1)
@@ -88,10 +150,10 @@ broadcaster( 0, _ )->
 broadcaster( N, Mess ) when N < 17 -> 
 	try glob:regformat(N) ! Mess of
 		_ -> 
-			debug:debug("broadcasting to ~p.~n",[N]),
-			ok
+			%debug:debug("broadcasting to ~p.~n",[N]),
+			broadcaster(N-1, Mess)
 	catch
-		_:F -> 
-			debug:debug("BROADCASTER: cannot commmunicate to ~p. Error ~p.~n",[N,F])
-	end,
-	broadcaster( N-1, Mess ).
+		_:_ -> 
+            broadcaster(N, Mess)
+			%debug:debug("BROADCASTER: cannot commmunicate to ~p. Error ~p.~n",[N,F])
+	end.
