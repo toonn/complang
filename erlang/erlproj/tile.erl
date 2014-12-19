@@ -95,19 +95,26 @@ move_dir(Id, CurrentValue, Direction) ->
             NValue = CurrentValue;
         {DestId, 0} ->
             manager ! {newvalue, DestId, CurrentValue},
-            glob:regformat(DestId) ! {setvalue, CurrentValue, false},
+            certainly(glob:regformat(DestId), {setvalue, CurrentValue, false}),
             NValue = 0;
         {DestId, CurrentValue} ->
             manager ! {newvalue, DestId, 2*CurrentValue},
-            glob:regformat(DestId) ! {setvalue, 2*CurrentValue, true},
+            certainly(glob:regformat(DestId), {setvalue, 2*CurrentValue, true}),
             NValue = 0
     end,
     case nextinline(Id, Direction) of
         noid -> ok;
-        Next -> glob:regformat(Next) ! Direction
+        Next -> certainly(glob:regformat(Next), Direction)
     end,
     NValue.
 
+certainly(Id, Message) ->
+    try
+        Id ! Message
+    catch
+        _:_ ->
+            certainly(Id, Message)
+    end.
 
 tilelife(Id, CurrentValue, Merged)->
 	receive
@@ -131,7 +138,7 @@ tilelife(Id, CurrentValue, Merged)->
             manager ! {moveFinish, Id},
             tilelife(Id, NValue, false);
 		{yourValue, Repl} ->
-			Repl ! {tilevalue, Id, CurrentValue, Merged},
+			certainly(Repl, {tilevalue, Id, CurrentValue, Merged}),
             tilelife(Id, CurrentValue, Merged);
 		{setvalue, Future, NewMerged} ->
 			tilelife(Id, Future, NewMerged)
